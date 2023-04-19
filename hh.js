@@ -8,6 +8,8 @@ function ok() {
 	document.querySelector(".menyu").style.opacity = ("-1")
 	document.querySelector(".menyu2").style.opacity = ("1")
 	document.querySelector("li").style.opacity = ("1")
+	document.querySelector("ul").style.opacity = ("1")
+	document.querySelector(".menyu2").style.zIndex = ("10")
 }
 
 function ok1() {
@@ -15,5 +17,9 @@ function ok1() {
 	document.querySelector(".menyu").style.opacity = ("1")
 	document.querySelector(".menyu2").style.opacity = ("-1")
 	document.querySelector("li").style.opacity = ("-1")
+	document.querySelector(".menyu2").style.zIndex = ("-10")
 }
+
+
+
 
